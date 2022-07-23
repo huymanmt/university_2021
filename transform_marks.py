@@ -1,6 +1,7 @@
 import pandas as pd
 
 df = pd.read_csv('output/diemthi.csv')
+df['Toan'] = df['Toan'].fillna(0)
 df['Van'] = df['Van'].fillna(0)
 df['Ngoai_ngu'] = df['Ngoai_ngu'].fillna(0)
 df['Ma_ngoai_ngu'] = df['Ma_ngoai_ngu'].fillna('Vang thi')
