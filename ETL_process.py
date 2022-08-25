@@ -27,7 +27,7 @@ def transform_data(data):
     'history_score','geography_score','civic_education_score']
     data.columns = new_col_name
     #Deduplicate
-    data.drop_duplicates(subset=['studentID'])
+    data.drop_duplicates(subset=['year','studentID'], keep = 'first')
 
     #Normalize student code
     student_code = data['studentID'].astype(str)
