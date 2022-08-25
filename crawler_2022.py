@@ -23,7 +23,7 @@ class crawl_mark_from_web_1(scrapy.Spider):
         for i in data:
             data_obj = get_mark_2022(i)
             diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-            with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+            with open('./output/diemthi2022.csv', 'a') as f:
                 file_writer = csv.DictWriter(f, fieldnames=diem_dict)
                 file_writer.writerows(data_obj)
 class crawl_mark_from_web_2(scrapy.Spider):
@@ -42,7 +42,7 @@ class crawl_mark_from_web_2(scrapy.Spider):
         for i in data:
             data_obj = get_mark_2022(i)
             diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-            with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+            with open('./output/diemthi2022.csv', 'a') as f:
                 file_writer = csv.DictWriter(f, fieldnames=diem_dict)
                 file_writer.writerows(data_obj)
 class crawl_mark_from_web_3(scrapy.Spider):
@@ -61,7 +61,7 @@ class crawl_mark_from_web_3(scrapy.Spider):
         for i in data:
             data_obj = get_mark_2022(i)
             diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-            with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+            with open('./output/diemthi2022.csv', 'a') as f:
                 file_writer = csv.DictWriter(f, fieldnames=diem_dict)
                 file_writer.writerows(data_obj)
 class crawl_mark_from_web_4(scrapy.Spider):
@@ -80,7 +80,7 @@ class crawl_mark_from_web_4(scrapy.Spider):
         for i in data:
             data_obj = get_mark_2022(i)
             diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-            with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+            with open('./output/diemthi2022.csv', 'a') as f:
                 file_writer = csv.DictWriter(f, fieldnames=diem_dict)
                 file_writer.writerows(data_obj)
 class crawl_mark_from_web_5(scrapy.Spider):
@@ -99,7 +99,7 @@ class crawl_mark_from_web_5(scrapy.Spider):
         for i in data:
             data_obj = get_mark_2022(i)
             diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-            with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+            with open('./output/diemthi2022.csv', 'a') as f:
                 file_writer = csv.DictWriter(f, fieldnames=diem_dict)
                 file_writer.writerows(data_obj)
 class crawl_mark_from_web_6(scrapy.Spider):
@@ -118,7 +118,7 @@ class crawl_mark_from_web_6(scrapy.Spider):
         for i in data:
             data_obj = get_mark_2022(i)
             diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-            with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+            with open('./output/diemthi2022.csv', 'a') as f:
                 file_writer = csv.DictWriter(f, fieldnames=diem_dict)
                 file_writer.writerows(data_obj)
 class crawl_mark_from_web_7(scrapy.Spider):
@@ -137,7 +137,7 @@ class crawl_mark_from_web_7(scrapy.Spider):
         for i in data:
             data_obj = get_mark_2022(i)
             diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-            with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+            with open('./output/diemthi2022.csv', 'a') as f:
                 file_writer = csv.DictWriter(f, fieldnames=diem_dict)
                 file_writer.writerows(data_obj)
 class crawl_mark_from_web_8(scrapy.Spider):
@@ -156,7 +156,7 @@ class crawl_mark_from_web_8(scrapy.Spider):
         for i in data:
             data_obj = get_mark_2022(i)
             diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-            with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+            with open('./output/diemthi2022.csv', 'a') as f:
                 file_writer = csv.DictWriter(f, fieldnames=diem_dict)
                 file_writer.writerows(data_obj)
 class crawl_mark_from_web_9(scrapy.Spider):
@@ -175,13 +175,13 @@ class crawl_mark_from_web_9(scrapy.Spider):
         for i in data:
             data_obj = get_mark_2022(i)
             diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-            with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+            with open('./output/diemthi2022.csv', 'a') as f:
                 file_writer = csv.DictWriter(f, fieldnames=diem_dict)
                 file_writer.writerows(data_obj)
 class crawl_mark_from_web_10(scrapy.Spider):
     name = 'diemthi10'
     def start_requests(self):
-        list_provide = ['{0:02}'.format(num) for num in range(55, 64)]
+        list_provide = ['{0:02}'.format(num) for num in range(55, 65)]
         for provide_id in list_provide:
             max_sbd = get_max_sbd(provide_id)
             for last_sbd in range(1, max_sbd):
@@ -194,13 +194,13 @@ class crawl_mark_from_web_10(scrapy.Spider):
         for i in data:
             data_obj = get_mark_2022(i)
             diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-            with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+            with open('./output/diemthi2022.csv', 'a') as f:
                 file_writer = csv.DictWriter(f, fieldnames=diem_dict)
                 file_writer.writerows(data_obj) 
 
 if __name__ == '__main__':
     diem_dict = ['Sbd', 'Toan', 'Van', 'Ngoaingu', 'Ma_ngoai_ngu', 'Ly', 'Hoa', 'Sinh', 'Su', 'Dia', 'GDCD']
-    with open('/home/hadoop/Desktop/university_2021/output/diemthi2022.csv', 'a') as f:
+    with open('./output/diemthi2022.csv', 'a') as f:
         file_writer = csv.DictWriter(f, fieldnames=diem_dict)
         file_writer.writeheader()  
     settings = get_project_settings()

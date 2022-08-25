@@ -47,7 +47,7 @@ class crawl_data_from_web(scrapy.Spider):
             diemchuan_obj = [major_code, major_name, subject_groups,point,note]
             for subject_group in subject_groups:
                 diemchuan_obj = [major_code, major_name, subject_group,point,note]
-                with open('/output/diemchuan.csv', 'a') as fout:
+                with open('./output/diemchuan.csv', 'a') as fout:
                     writer = csv.writer(fout)
                     writer.writerow(diemchuan_obj)
  
